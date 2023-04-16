@@ -291,6 +291,11 @@ ul {
   align-items: center;
 }
 
+.list-item-svg-ft:hover {
+  background-color: #31d0aa;
+}
+
+
 .list-svg-sec-fr {
   display: flex;
   align-items: center;
@@ -374,28 +379,62 @@ ul {
   margin-bottom: 72px;
 }
 
-.customers-svg-last {
-  width: 94px;
-}
-
 .customers-svg-fife {
   width: 63px;
+  fill: #8e8f99;
 }
-
+.customers-svg-fife:hover,
+.customers-svg-fife:focus {
+  fill: #404bbf;
+}
 .customers-svg-four {
   width: 84px;
+  fill: #8e8f99;
+}
+
+.customers-svg-four:hover,
+.customers-svg-four:focus {
+  fill: #404bbf;
 }
 
 .customers-svg-three {
   width: 44px;
+  fill: #8e8f99;
+}
+
+.customers-svg-three:hover,
+.customers-svg-three:focus {
+  fill: #404bbf;
 }
 
 .customers-svg-two {
   width: 40px;
+  fill: #8e8f99;
 }
 
 .customers-svg-one {
   width: 41px;
+  fill: #8e8f99;
+}
+
+.customers-svg-one:hover,
+.customers-svg-one:focus {
+  fill: #404bbf;
+}
+
+.customers-svg-two:hover,
+.customers-svg-two:focus {
+  fill: #404bbf;
+}
+
+.customers-svg-last {
+  fill: #8e8f99;
+  width: 94px;
+}
+
+.customers-svg-last:hover,
+.customers-svg-last:focus {
+  fill: #404bbf;
 }
 
 .item-customers {
@@ -406,6 +445,10 @@ ul {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.item-customers:hover {
+  border-color: #404bbf;
 }
 
 .list-customers {
@@ -581,6 +624,12 @@ ul {
 
 .list-item-portfolio {
   flex-basis: calc(100% / 3 - 24px);
+}
+
+.list-item-portfolio:hover,
+.list-item-portfolio:focus {
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
 .list-item-portfolio:nth-child(n + 7) {
