@@ -59,7 +59,7 @@ ul {
 }
 /* header */
 .header {
-  border-bottom: 1px solid #E7E9FC;
+  border-bottom: 1px solid #e7e9fc;
 }
 
 .list-header {
@@ -165,13 +165,40 @@ ul {
 }
 
 .hero {
-  background-color: var(--main-color);
   padding-top: 188px;
   padding-bottom: 188px;
   display: block;
+
+  background-image: linear-gradient(
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
+    url(../images/people-office\ 1.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 /* section 2 */
+
+.svg-second-section {
+  width: 64px;
+  height: 64px;
+
+  background-color: #f4f4fd;
+}
+
+.div-second-section {
+  width: 264px;
+  height: 112px;
+  background-color: #f4f4fd;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 8px;
+}
+
 .section-second {
   padding-top: 120px;
   padding-bottom: 120px;
@@ -249,8 +276,30 @@ ul {
 
 /* section 4 */
 
+.second-four-svg {
+  width: 16px;
+  height: 16px;
+}
+
+.list-item-svg {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #4d5ae5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.list-svg-sec-fr {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  margin: 8px 16px 32px 16px;
+}
+
 .emp-nam {
-  padding: 32px 16px 32px 16px;
+  padding: 32px 16px 0 16px;
   border-radius: 0px 0px 4px 4px;
 }
 
@@ -311,7 +360,91 @@ ul {
   margin-right: 0;
 }
 
+/* Section 5  */
+
+.customers-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 40px;
+
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  margin-bottom: 72px;
+}
+
+.customers-svg-last {
+  width: 94px;
+}
+
+.customers-svg-fife {
+  width: 63px;
+}
+
+.customers-svg-four {
+  width: 84px;
+}
+
+.customers-svg-three {
+  width: 44px;
+}
+
+.customers-svg-two {
+  width: 40px;
+}
+
+.customers-svg-one {
+  width: 41px;
+}
+
+.item-customers {
+  width: 168px;
+  height: 88px;
+  border: 1px solid #8e8f99;
+  border-radius: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.list-customers {
+  display: flex;
+  gap: 24px;
+}
+
+.section-fife {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
 /* footer */
+
+.footer-soc-lin {
+  margin-left: 120px;
+  padding-bottom: 32px;
+}
+
+.list-svg-footer{
+gap: 16px;
+display: flex;
+
+}
+
+.cont-footer{
+display: flex;
+
+}
+
+.text-footer {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #FFFFFF;
+  letter-spacing: 0.02em;
+  margin-bottom: 16px;
+  
+}
 
 .logo-footer {
   margin-bottom: 16px;
@@ -446,13 +579,10 @@ ul {
   justify-content: center;
   row-gap: 48px;
   column-gap: 24px;
-  
 }
 
 .list-item-portfolio {
   flex-basis: calc(100% / 3 - 24px);
-
- 
 }
 
 .list-item-portfolio:nth-child(n + 7) {
