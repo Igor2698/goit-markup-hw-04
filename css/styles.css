@@ -288,7 +288,7 @@ ul {
   justify-content: center;
 }
 
-.second-four-svg{
+.second-four-svg {
   fill: #f4f4fd;
 }
 
@@ -306,7 +306,7 @@ ul {
   display: flex;
   align-items: center;
   gap: 24px;
-  margin: 8px 16px 32px 16px;
+
   justify-content: center;
 }
 
@@ -359,6 +359,7 @@ ul {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--extra-color);
+  margin-bottom: 8px;
 
   text-align: center;
 }
@@ -376,6 +377,17 @@ ul {
 
 /* Section 5  */
 
+.link-customers {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #8e8f99;
+  border-radius: 4px;
+  color: #8e8f99;
+}
+
 .customers-title {
   font-weight: 700;
   font-size: 36px;
@@ -385,77 +397,25 @@ ul {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   margin-bottom: 72px;
+  line-height: 1.1;
+  color: #2e2f42;
 }
 
-.customers-svg-fife {
-  width: 63px;
-  fill: #8e8f99;
-}
-.customers-svg-fife:hover,
-.customers-svg-fife:focus {
+.customers-svg:hover,
+.customers-svg:focus {
   fill: #404bbf;
 }
-.customers-svg-four {
-  width: 84px;
-  fill: #8e8f99;
-}
-
-.customers-svg-four:hover,
-.customers-svg-four:focus {
-  fill: #404bbf;
-}
-
-.customers-svg-three {
-  width: 44px;
-  fill: #8e8f99;
-}
-
-.customers-svg-three:hover,
-.customers-svg-three:focus {
-  fill: #404bbf;
-}
-
-.customers-svg-two {
-  width: 40px;
-  fill: #8e8f99;
-}
-
-.customers-svg-one {
-  width: 41px;
-  fill: #8e8f99;
-}
-
-.customers-svg-one:hover,
-.customers-svg-one:focus {
-  fill: #404bbf;
-}
-
-.customers-svg-two:hover,
-.customers-svg-two:focus {
-  fill: #404bbf;
-}
-
-.customers-svg-last {
-  fill: #8e8f99;
-  width: 94px;
-}
-
-.customers-svg-last:hover,
-.customers-svg-last:focus {
-  fill: #404bbf;
+.customers-svg {
+  fill: currentColor;
 }
 
 .item-customers {
   width: 168px;
   height: 88px;
-  border: 1px solid #8e8f99;
-  border-radius: 4px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
-.item-customers:hover {
+.link-customers:hover,
+.link-customers:focus {
   border-color: #404bbf;
 }
 
@@ -470,6 +430,25 @@ ul {
 }
 
 /* footer */
+
+.list-item-svg-ft {
+  width: 40px;
+  height: 40px;
+}
+
+.lnk-footer {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  background-color: #4d5ae5;
+  justify-content: center;
+  align-items: center;
+}
+
+.lnk-footer:hover {
+  background-color: #31d0aa;
+}
 
 .footer-soc-lin {
   margin-left: 120px;
@@ -576,20 +555,33 @@ ul {
   border: 1px solid #e7e9fc;
 }
 
-.button-portfolio:hover,
-.button-portfolio:focus {
-  border: 1px solid transparent;
-}
 .button:hover,
 .button:focus {
   background-color: #404bbf;
   color: #ffffff;
 }
 
+.button-portfolio:hover,
+.button-portfolio:focus {
+  border: 1px solid transparent;
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+}
+
 /* Portfolio */
 /* Стилизация полностью совпадает с Хедером осн. стран. */
 /* section first */
 /* section second */
+
+.link-portf {
+  display: block;
+}
+
+.link-portf:hover,
+.link-portf:focus {
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+}
 
 .section-second-portfolio {
   padding-top: 96px;
@@ -632,12 +624,6 @@ ul {
 
 .list-item-portfolio {
   flex-basis: calc(100% / 3 - 24px);
-}
-
-.list-item-portfolio:hover,
-.list-item-portfolio:focus {
-  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
-    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
 .list-item-portfolio:nth-child(n + 7) {
