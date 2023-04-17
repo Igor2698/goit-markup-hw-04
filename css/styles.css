@@ -299,7 +299,7 @@ ul {
 
 .link-sect-fr:hover,
 .link-sect-fr:focus {
-  background-color: #31d0aa;
+  background-color: #404bbf;
 }
 
 .list-svg-sec-fr {
@@ -416,6 +416,7 @@ ul {
 
 .link-customers:hover,
 .link-customers:focus {
+  color: #404bbf;
   border-color: #404bbf;
 }
 
@@ -446,12 +447,12 @@ ul {
   align-items: center;
 }
 
-.lnk-footer:hover {
+.lnk-footer:hover,
+.lnk-footer:focus {
   background-color: #31d0aa;
 }
 
 .footer-soc-lin {
- 
 }
 
 .list-svg-footer {
